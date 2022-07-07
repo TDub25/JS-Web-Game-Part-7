@@ -26,3 +26,8 @@ function newPlayableCharacter(x, y) {
         element: element
     }
 }
+function sleep(time){
+    return new Promise(resolve => {
+        setTimeout(resolve, time)
+    })  
+}
